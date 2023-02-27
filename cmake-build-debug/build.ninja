@@ -49,7 +49,14 @@ build cmake_object_order_depends_target_OpenGl_Sandbox: phony || CMakeFiles/Open
 build CMakeFiles/OpenGl_Sandbox.dir/main.cpp.o: CXX_COMPILER__OpenGl_Sandbox_Debug /Users/lucdreibholz/GitHub/OpenGl-Sandbox/main.cpp || cmake_object_order_depends_target_OpenGl_Sandbox
   DEP_FILE = CMakeFiles/OpenGl_Sandbox.dir/main.cpp.o.d
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++17
-  INCLUDES = -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/GLUT.framework/Headers
+  INCLUDES = -I/opt/homebrew/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/GLUT.framework/Headers
+  OBJECT_DIR = CMakeFiles/OpenGl_Sandbox.dir
+  OBJECT_FILE_DIR = CMakeFiles/OpenGl_Sandbox.dir
+
+build CMakeFiles/OpenGl_Sandbox.dir/Rectangle.cpp.o: CXX_COMPILER__OpenGl_Sandbox_Debug /Users/lucdreibholz/GitHub/OpenGl-Sandbox/Rectangle.cpp || cmake_object_order_depends_target_OpenGl_Sandbox
+  DEP_FILE = CMakeFiles/OpenGl_Sandbox.dir/Rectangle.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -fcolor-diagnostics -std=gnu++17
+  INCLUDES = -I/opt/homebrew/include -iframework /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks -isystem /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/GLUT.framework/Headers
   OBJECT_DIR = CMakeFiles/OpenGl_Sandbox.dir
   OBJECT_FILE_DIR = CMakeFiles/OpenGl_Sandbox.dir
 
@@ -61,7 +68,7 @@ build CMakeFiles/OpenGl_Sandbox.dir/main.cpp.o: CXX_COMPILER__OpenGl_Sandbox_Deb
 #############################################
 # Link the executable OpenGl_Sandbox
 
-build OpenGl_Sandbox: CXX_EXECUTABLE_LINKER__OpenGl_Sandbox_Debug CMakeFiles/OpenGl_Sandbox.dir/main.cpp.o | /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/GLUT.framework/GLUT.tbd /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa.tbd
+build OpenGl_Sandbox: CXX_EXECUTABLE_LINKER__OpenGl_Sandbox_Debug CMakeFiles/OpenGl_Sandbox.dir/main.cpp.o CMakeFiles/OpenGl_Sandbox.dir/Rectangle.cpp.o | /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/GLUT.framework/GLUT.tbd /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa.tbd
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk
   LINK_LIBRARIES = /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/GLUT.framework/GLUT.tbd  /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa.tbd
   OBJECT_DIR = CMakeFiles/OpenGl_Sandbox.dir

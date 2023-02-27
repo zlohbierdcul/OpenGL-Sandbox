@@ -1,6 +1,7 @@
 # ninja log v5
-0	53	1677424407960241077	build.ninja	77970acf8d845593
-1	69	1677423572628490894	CMakeFiles/OpenGl_Sandbox.dir/main.cpp.o	8ef7803f443dfed3
-71	212	1677423572771128260	OpenGl_Sandbox	952867aeff0a8440
-1	55	1677424514168755023	CMakeFiles/OpenGl_Sandbox.dir/main.cpp.o	8ef7803f443dfed3
-56	188	1677424514301309109	OpenGl_Sandbox	952867aeff0a8440
+0	53	1677500336873684161	build.ninja	77970acf8d845593
+0	51	1677499445064439035	CMakeFiles/OpenGl_Sandbox.dir/main.cpp.o	8ef7803f443dfed3
+52	173	1677499445187290393	OpenGl_Sandbox	4cff68d37cba8dd8
+0	52	1677499356088228289	CMakeFiles/OpenGl_Sandbox.dir/Rectangle.cpp.o	ebc3c5f702a47767
+1	63	1677500473672357034	CMakeFiles/OpenGl_Sandbox.dir/Rectangle.cpp.o	9c0242f7158d2ca0
+1	68	1677500473676882355	CMakeFiles/OpenGl_Sandbox.dir/main.cpp.o	c32c0f39a8bab35e
